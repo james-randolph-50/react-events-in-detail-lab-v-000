@@ -1,14 +1,14 @@
 import React from 'react';
 
-class CoordinatesButton extends Teact.Component {
+class CoordinatesButton extends React.Component {
   handleClick = (event) => {
-    this.props.onReceiveCoordination([event.clientX, event.clientY]);
+    this.props.onReceiveCoordinates([event.clientX, event.clientY]);
   }
-  
+
   render() {
     return (
-      <button onClick={this.handleClick}>Coordinates</button>
-      );
+      <button onClick={this.handleClick}>Coords</button>
+    );
   }
 }
 
