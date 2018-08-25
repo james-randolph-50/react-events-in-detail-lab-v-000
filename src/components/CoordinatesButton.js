@@ -12,3 +12,4 @@ class CoordinatesButton extends Teact.Component {
   }
 }
 
+export default CoordinatesButton
